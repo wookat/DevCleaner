@@ -146,7 +146,7 @@ export default function BackupsPage({ onNavigate }: BackupsPageProps) {
                 {t("backups.refresh")}
               </Button>
               {onNavigate && (
-                <Button onClick={() => onNavigate("clean")}>
+                <Button onClick={() => onNavigate("scan")}>
                   <Trash2 size={16} className="mr-2" />
                   {t("backups.goClean")}
                 </Button>
